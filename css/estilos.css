@@ -16,6 +16,11 @@
 .indiceLogo{
     display: flex;
 }
+
+.headerIcono{
+    display: none;
+}
+
 .indiceNavegable {
     font-family: 'Roboto', sans-serif;
     font-style: bold;
@@ -164,8 +169,8 @@ font-family: 'Roboto', sans-serif;
 .fotoSucursal2{
     justify-content: left;
     align-items: flex-start;
-    width: 1300px;
-    height: 500px;
+    width: 60%;
+    
     padding: 2rem;
     border-radius: 50px;   
 }
@@ -278,10 +283,10 @@ font-family: 'Roboto', sans-serif;
     .boton{
     border: 5px solid white;
     color: rgb(121, 80, 4);
-    width: 80%;
+    width: 100%;
     height: 300px ;
-    padding: 16px;
-    margin: 32px;
+    padding: 5px;
+    margin: 0px;
     border-radius: 10px;
     }
     .botonTitulo{
@@ -291,7 +296,8 @@ font-family: 'Roboto', sans-serif;
     text-transform:uppercase;
     }   
     .botonFoto{
-    height: 50%;
+    height: 35%;
+    padding-left: 3px;
     border-radius: 10px;
     margin-bottom: 16px;
     }
@@ -317,34 +323,34 @@ font-family: 'Roboto', sans-serif;
     .tituloSecundario{
     font-family: 'Roboto', sans-serif;
      grid-area:t1;
-    font-size: 50px;
+    font-size: 42px;
     text-align: center;
     text-decoration:underline;
     }
     .tituloLink{
     font-family: 'Roboto', sans-serif;
     grid-area:t2;
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
     }
     .redireccionIconoTel{
     grid-area:tel;
-    height: 150px;
-    width: 150px;
+    height: 50%;
+    width: 100%;
     }
     .redireccionIconoWsp{
     grid-area:wsp;
-    height: 150px;
-    width: 150px;
+    height: 50%;
+    width: 100%;
     }
     .redireccionIconoMail{
     grid-area:mail;
-    height: 150px;
-    width: 150px;
+    height: 50%;
+    width: 100%;
     }
     .mapaFooter{
     grid-area:mapa;
-    padding-left: 3rem;
+    padding-left: 0rem;
     width:100%;
     height: 100%;
     }
@@ -362,7 +368,8 @@ font-family: 'Roboto', sans-serif;
     }
     /* PRODUCTO */
     .boton2{
-        width: 90%;
+        margin: 0px;
+        width: 100%;
         height: auto;
     }
     .botonFoto2{
