@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deposito Mitre</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,21 +14,26 @@
 
 </head>
 <body>
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <header class="header">
         <img class="indiceLogo" src="./logo/marca.jpg">
-        <a href="#boton" class="headerIcono">
-            <span class="boton"></span>
-        </a>
-        <nav class="nav" id="boton">
-            <ul class="indiceNavegable">
-                 <li class="indiceItems"><a href=index.html>Inicio</a></li>
-                <li class="indiceItems" ><a href=empresa.html>Empresa</a></li>
-                <li class="indiceItems" ><a href=producto.html>Producto</a></li>
-                <li class="indiceItems" ><a href=servicio.html>Servicio</a></li>
-                <li class="indiceItems" ><a href=contacto.html>Contacto</a></li> 
-                <li class="indiceItems indiceItemsOculto"> <a href="#cerrado">❌</a></li>
-            </ul>    
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./servicio.html">Servicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./index.html">Inicio</a>
+                    <a class="nav-link" href="./empresa.html">Empresa</a>
+                    <a class="nav-link" href="./producto.html">Producto</a>
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                 
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <div class="divEmpresa">

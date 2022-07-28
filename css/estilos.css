@@ -79,10 +79,11 @@
     border: 5px solid white;
     color: rgb(121, 80, 4);
     width: 25%;
-    height: 300px ;
+    height: auto ;
     padding: 16px;
     margin: 32px;
     border-radius: 10px;
+
 }
 .botonTitulo{
     text-align: center;
@@ -91,7 +92,7 @@
     text-transform:uppercase;
 }
 .botonFoto{
-    height: 35%;
+    width: 90%;
     border-radius: 10px;
     margin-bottom: 16px;
 }

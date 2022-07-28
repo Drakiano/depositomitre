@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deposito Mitre</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,26 +13,48 @@
     
 </head>
 <body>
+    <script src="./js/bootstrap.bundle.min.js"></script>
       <header class="header">
         <img class="indiceLogo" src="./logo/marca.jpg">
-        <a href="#boton" class="headerIcono">
-            <span class="boton"></span>
-        </a>
-        <nav class="nav" id="boton">
-                <ul class="indiceNavegable">
-                     <li class="indiceItems"><a href=index.html>Inicio</a></li>
-                    <li class="indiceItems" ><a href=empresa.html>Empresa</a></li>
-                    <li class="indiceItems" ><a href=producto.html>Producto</a></li>
-                    <li class="indiceItems" ><a href=servicio.html>Servicio</a></li>
-                    <li class="indiceItems" ><a href=contacto.html>Contacto</a></li> 
-                    <li class="indiceItems indiceItemsOculto"> <a href="#cerrado">❌</a></li>
-                </ul>    
-            </nav>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./empresa.html">Empresa</a>
+                    <a class="nav-link" href="./producto.html">Producto</a>
+                    <a class="nav-link" href="./servicio.html">Servicio</a>
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                 
+                </div>
+              </div>
+            </div>
+          </nav>   
     </header>
     <main>
         <div>
             <div class="main">
-                <img class="imagenOficina"src="./fotos/Oficina.jpg">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./fotos/Oficina.jpg" class="d-block w-100" alt="Oficina">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./fotos/Cartel Oficina.jpg" class="d-block w-100" alt="Cartel Oficina">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
                 <h1 class="tituloEmpresa"> Deposito Mitre S.R.L.</h1>
                     <img class="imagenLogoTernium"src="./logo/LogoTernium.png" height="100px" width="200">
             </div> 
@@ -61,9 +84,9 @@
         </div>    
         <div class="flexbord">     
              <div class="boton">
-                <h2 class="botonTtitulo">Logistica</h2>
+                <h2 class="botonTitulo">Logistica</h2>
                 <img class="botonFoto"src="./fotos/banner_mitre_08.jpeg">
-                    <p class="botonTexto"> Flota de camiones propios que nos permite brindar un mejor servicio a nuestros clientes.</p>
+                    <p class="botonTexto"> Flota de camiones propios que nos permite brindar un mejor servicio.</p>
             </div>
             <div class="boton">
                 <h2 class="botonTitulo">Calidad</h2>
