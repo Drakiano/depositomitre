@@ -52,37 +52,108 @@
             <img class="fotoSucursal1"src="./fotos/producto.jpg" alt="producto">
         </div>
         <div class="flexbord">  
-            <div class="boton2">
-                <h2 class="botonTitulo2">LAMINADO EN FRIO</h2> 
-                    <img class="botonFoto2"src="./fotos/laminadoenfrio.jpeg">
-                    <p class="botonTexto">Espesor desde 0,40 mm a 3,00 mm
-                        Ancho Standard: 1000 A 1500 mm
-                        Ancho No Standard: Se puede adaptar a la necesidad del cliente mediante un proceso de flejada.
-                        Largo Standard: 2000 A 3000 mm
-                        Largo No Standard: Se adecua a las necesidades de clientes mediante el proceso.
-                        Peso de los paquetes: A combinar con los clientes.
-                    </p>
-            </div>     
-            <div class="boton2">
-                <h2 class="botonTitulo2">LAMINADO EN CALIENTE</h2>
-                <img class="botonFoto2"src="./fotos/laminadoencaliente.jpeg">
-                    <p class="botonTexto2">Espesor desde 2,00 mm a 6,35 mm
-                        Ancho Standard: 1245 mm -1500 mm
-                        Ancho NO Standard: Se puede adaptar a la necesidad del cliente mediante un proceso de flejado.
-                        Largo Standard: 3000 mm A 6000 mm
-                        Largo No Standard: Se adecua a las necesidades de clientes mediante el proceso.
-                        Peso de los paquetes: A combinar con los clientes</p>
-            </div>    
-            <div class="boton2">
-                <h2 class="botonTitulo2">GALVANIZADO</h2>
-                <img class="botonFoto2"src="./fotos/galvanizada.jpeg">
-                    <p class="botonTexto2">Espesor 0,40 mm a 2,00 mm
-                        Ancho Standard: 1220 mm
-                        Ancho No Standard: Se puede adaptar a las necesidades del cliente mediante un proceso de flejado.
-                        Largo Standard: 2440 mm A 3000 mm
-                        Largo No Standard: Se adecua a las necesidades de clientes mediante el proceso.
-                        Peso de los paquetes: A combinar con los clientes..</p>
-            </div>
+            <div class="boton2"><!--PRIMER ACORDION-->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        LAMINADO EN FRIO
+                      </h2>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          IMAGEN DE REFERENCIA
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"> <img class="botonFoto2"src="./fotos/laminadoenfrio.jpeg"></div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          ESPECIFICACIONES DEL MATERIAL
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Espesor desde 0,40 mm a 3,00 mm
+                            Ancho Standard: 1000 A 1500 mm
+                            Ancho No Standard: Se puede adaptar a la necesidad del cliente mediante un proceso de flejada.
+                            Largo Standard: 2000 A 3000 mm
+                            Largo No Standard: Se adecua a las necesidades de clientes mediante el proceso.
+                            Peso de los paquetes: A combinar con los clientes.</div>
+                      </div>
+                    </div>
+                  </div>
+            </div>    <!--Cierre PRIMER acordion-->
+            <div class="boton2"><!--SEGUNDO ACORDION-->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        LAMINADO EN CALIENTE
+                      </h2>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          IMAGEN DE REFERENCIA
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"> <img class="botonFoto2"src="./fotos/laminadoencaliente.jpeg"></div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          ESPECIFICACIONES DEL MATERIAL
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Espesor desde 2,00 mm a 6,35 mm
+                            Ancho Standard: 1245 mm -1500 mm
+                            Ancho NO Standard: Se puede adaptar a la necesidad del cliente mediante un proceso de flejado.
+                            Largo Standard: 3000 mm A 6000 mm
+                            Largo No Standard: Se adecua a las necesidades de clientes mediante el proceso.
+                            Peso de los paquetes: A combinar con los clientes.</div>
+                      </div>
+                    </div>
+                  </div>
+            </div>    <!--Cierre SEGUNDO acordion-->
+            <div class="boton2"><!--TERCER ACORDION-->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        CHAPA GALVANIZADA
+                      </h2>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          IMAGEN DE REFERENCIA
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"><img class="botonFoto2"src="./fotos/galvanizada.jpeg"></div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          ESPECIFICACIONES DEL MATERIAL
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Espesor 0,40 mm a 2,00 mm
+                            Ancho Standard: 1220 mm
+                            Ancho No Standard: Se puede adaptar a las necesidades del cliente mediante un proceso de flejado.
+                            Largo Standard: 2440 mm A 3000 mm
+                            Largo No Standard: Se adecua a las necesidades de clientes mediante el proceso.
+                            Peso de los paquetes: A combinar con los clientes.</div>
+                      </div>
+                    </div>
+                  </div>
+            </div><!--CIERRE TERCER ACORDION-->
     </main>
     <footer>
         <div class="footerGrid">

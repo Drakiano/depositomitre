@@ -179,8 +179,8 @@ font-family: 'Roboto', sans-serif;
 .boton2{
     border: 5px solid white;
     color: rgb(121, 80, 4);
-    width: 25%;
-    height: 700px ;
+    width: 30%;
+    height: auto ;
     padding: 16px;
     margin: 32px;
     border-radius: 10px;
