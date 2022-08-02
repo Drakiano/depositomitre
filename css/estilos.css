@@ -171,7 +171,6 @@ font-family: 'Roboto', sans-serif;
     justify-content: left;
     align-items: flex-start;
     width: 60%;
-    
     padding: 2rem;
     border-radius: 50px;   
 }
@@ -202,20 +201,30 @@ font-family: 'Roboto', sans-serif;
 }
 /* SERVICIO*/
 .textoEmpresa1{
-    font-size: 50px;
+    font-size: 40px;
     padding-left: 2rem;
 }
 .fotoSucursal11{
     height: 350px;
-    width: 2000px;
+    width: 1700px;
+    transition: height 2s;
+}
+.fotoSucursal11:hover{
+    height: 400px;
+    width: 1750px;
 }
 .textoEmpresa2{
-    font-size: 50px;
+    font-size: 40px;
     padding-left: 2rem;
 }
 .fotoSucursal22{
     height: 400px;
     width: 700px;
+    transition: 2s;
+}
+.fotoSucursal22:hover{
+    height: 450px;
+    width: 750px;
 }
 /*CONTACTO*/
 .footerFlex2{
