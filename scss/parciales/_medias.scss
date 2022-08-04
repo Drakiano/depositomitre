@@ -1,0 +1,177 @@
+@media screen and (max-width:599px)
+{
+    .indiceLogo{
+        width: 60%;
+    }
+    .nav{
+        display: none;
+        background-color: red;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000000;
+        width: 80%;
+        height: 100vh;
+    }
+    .indiceNavegable{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+        justify-content: center;
+    }
+    .headerIcono{
+        display: block;
+    }
+    .nav:target{
+        display: block;
+    }
+    .indiceItemsOculto{
+        display: block;
+    }
+    /* COMIENZO DE MAIN*/
+    .main{
+    border: 5px solid white;
+    display: flex;
+    flex-flow: column nowrap;
+    }
+    .imagenOficina{
+    justify-content:left;
+    align-items: flex-start;
+    width: 100%;
+    height: 10%;   
+    }
+    .tituloEmpresa {
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline; 
+    font-size: 30px; 
+    }
+    .imagenLogoTernium{
+    height: 1%;
+    }
+     /*SECTION*/
+     .flexbord{
+    display: grid;
+    }
+    .boton{
+    border: 5px solid white;
+    color: rgb(121, 80, 4);
+    width: 100%;
+    height: 300px ;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 10px;
+    }
+    .botonTitulo{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 16px;
+    text-transform:uppercase;
+    }   
+    .botonFoto{
+    height: 35%;
+    padding-left: 3px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    }
+    .botonTexto{
+    text-align: center;
+    font-size: 25px;
+    }
+ 
+
+    /*Footer*/
+    .footerGrid {
+    display: grid;
+    padding: 1rem;
+    border: 5px solid white; 
+    grid-template-columns:30% 30% 30%;
+    grid-template-rows:200px 150px 160px 200px;
+    grid-template-areas:
+    "t1 t1 t1"
+    "t2 t2 t2"
+    "tel wsp mail"
+    "mapa mapa mapa";
+    }
+    .tituloSecundario{
+    font-family: 'Roboto', sans-serif;
+     grid-area:t1;
+    font-size: 42px;
+    text-align: center;
+    text-decoration:underline;
+    }
+    .tituloLink{
+    font-family: 'Roboto', sans-serif;
+    grid-area:t2;
+    font-size: 23px;
+    text-align: center;
+    }
+    .redireccionIconoTel{
+    grid-area:tel;
+    height: 50%;
+    width: 100%;
+    }
+    .redireccionIconoWsp{
+    grid-area:wsp;
+    height: 50%;
+    width: 100%;
+    }
+    .redireccionIconoMail{
+    grid-area:mail;
+    height: 50%;
+    width: 100%;
+    }
+    .mapaFooter{
+    grid-area:mapa;
+    padding-left: 0rem;
+    width:100%;
+    height: 100%;
+    }
+    /*EMPRESA*/
+    .divEmpresa{
+        display: block;
+    }
+    .fotoSucursal1{
+        width: 100%;
+        height: 30%;
+    }
+    .fotoSucursal2{
+        width: 100%;
+        height: 30%;
+    }
+    /* PRODUCTO */
+    .boton2{
+        margin: 0px;
+        width: 100%;
+        height: auto;
+    }
+    .botonFoto2{
+        width: 87%;
+    }
+    /* SERVICIO*/
+    .textoEmpresa1{
+    font-size: 30px;
+    padding-left: 2rem;
+    }
+    .fotoSucursal11{
+    height: 200px;
+    width: 90%;
+    }
+    .textoEmpresa2{
+    font-size: 30px;
+    padding-left: 2rem;
+     }
+    .fotoSucursal22{
+        height: 200px;
+        width: 90%;
+    }
+    /* CONTACTO */
+    .divEmpresa{
+        border: none;
+    }
+    .mapaContacto{
+        width: 100%;
+    }
+}

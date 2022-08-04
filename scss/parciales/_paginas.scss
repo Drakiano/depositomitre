@@ -1,0 +1,108 @@
+divEmpresa{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: orange;
+    padding: 2rem;
+    border: 5px solid white;
+}
+.textoEmpresa {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align:justify;
+}
+.fotoSucursal1{
+    justify-content: right;
+    width: 50%;
+    height: 400px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 20px;  
+}
+.fotoSucursal2{
+    justify-content: left;
+    align-items: flex-start;
+    width: 60%;
+    padding: 2rem;
+    border-radius: 50px;   
+}
+/* PRODUCTO */
+.boton2{
+    border: 5px solid white;
+    color: rgb(121, 80, 4);
+    width: 30%;
+    height: auto ;
+    padding: 16px;
+    margin: 32px;
+    border-radius: 10px;
+}
+.botonTitulo2{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 16px;
+    text-transform:uppercase;
+}
+.botonFoto2{
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+.botonTexto2{
+    text-align: center;
+    font-size: 25px;
+}
+/* SERVICIO*/
+.textoEmpresa1{
+    font-size: 40px;
+    padding-left: 2rem;
+}
+.fotoSucursal11{
+    width: 30%;
+    transition: width 5s;
+}
+.fotoSucursal11:hover{
+    width: 40%;
+}
+.textoEmpresa2{
+    font-size: 40px;
+    padding-left: 2rem;
+}
+.fotoSucursal22{
+    width: 50%;
+    transition: 5s;
+}
+.fotoSucursal22:hover{
+    width: 60%;
+}
+/*CONTACTO*/
+.tituloContacto { 
+    font-family: monospace; 
+	position: relative; 
+	float: left;
+	background: orange;
+	color: #fff;
+	font-size: 2.5em;
+}
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: orange;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30) infinite alternate;
+}
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+.footerFlex2{
+    justify-content: center;
+    align-items: center;
+}
+.mapaContacto{
+    width: 50%;
+    height: auto;
+}
+.footerContacto{
+    display: block;
+    text-align: center;
+}

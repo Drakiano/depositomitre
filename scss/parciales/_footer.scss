@@ -1,0 +1,45 @@
+.footerGrid {
+    display: grid;
+    padding: 1rem;
+    border: 5px solid white; 
+    grid-template-columns:17% 17% 17% 50%;
+    grid-template-rows:200px 150px 160px;
+    grid-template-areas:
+    "t1 t1 t1 mapa"
+    "t2 t2 t2 mapa"
+    "tel wsp mail mapa";
+}
+.tituloSecundario{
+font-family: 'Roboto', sans-serif;
+ grid-area:t1;
+ font-size: 65px;
+ text-align: center;
+ text-decoration:underline;
+}
+.tituloLink{
+    font-family: 'Roboto', sans-serif;
+    grid-area:t2;
+    font-size: 40px;
+    text-align: center;
+}
+.redireccionIconoTel{
+    grid-area:tel;
+    height: 150px;
+    width: 150px;
+}
+.redireccionIconoWsp{
+    grid-area:wsp;
+    height: 150px;
+    width: 150px;
+}
+.redireccionIconoMail{
+    grid-area:mail;
+    height: 150px;
+    width: 150px;
+}
+.mapaFooter{
+    grid-area:mapa;
+    padding-left: 3rem;
+    width:600px;
+    height:500px;
+}

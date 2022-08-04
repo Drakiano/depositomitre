@@ -1,0 +1,27 @@
+.main{
+    border: 5px solid white;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.imagenOficina{
+    justify-content:left;
+    align-items: flex-start;
+    width: 50%;
+    height: 500px;   
+
+}
+.tituloEmpresa {
+    width: 50%;
+    flex-flow: row nowrap;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    align-items: flex-end;
+    text-decoration: underline; 
+    font-size: 100px; 
+    margin-top:30px;
+    margin: 10px;
+}
+.imagenDescripcion{
+    background-color: $colorPrincipal;
+    font-size: 30px ;
+}

@@ -1,0 +1,28 @@
+.flexbord{
+    display: flex;
+}
+.boton{
+    border: 5px solid white;
+    color: rgb(121, 80, 4);
+    width: 25%;
+    height: auto ;
+    padding: 16px;
+    margin: 32px;
+    border-radius: 10px;
+
+}
+.botonTitulo{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 16px;
+    text-transform:uppercase;
+}
+.botonFoto{
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+.botonTexto{
+    text-align: center;
+    font-size: 25px;
+}
