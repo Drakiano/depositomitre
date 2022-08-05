@@ -1,7 +1,7 @@
 divEmpresa{
     display: flex;
     flex-flow: row nowrap;
-    background-color: orange;
+    background-color: $colorPrincipal;
     padding: 2rem;
     border: 5px solid white;
 }
