@@ -1,4 +1,5 @@
 .main{
+    margin-top: 80px;
     border: 5px solid white;
     display: flex;
     flex-flow: row nowrap;
@@ -22,6 +23,7 @@
     margin: 10px;
 }
 .imagenDescripcion{
+    margin: 2rem;
     background-color: $colorPrincipal;
     font-size: 30px ;
 }

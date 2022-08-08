@@ -47,6 +47,7 @@
 }
 
 .main {
+  margin-top: 80px;
   border: 5px solid white;
   display: flex;
   flex-flow: row nowrap;
@@ -72,6 +73,7 @@
 }
 
 .imagenDescripcion {
+  margin: 2rem;
   background-color: orange;
   font-size: 30px;
 }
@@ -157,7 +159,22 @@
   height: 500px;
 }
 
-divEmpresa {
+.redireccionIconoTel2 {
+  height: 150px;
+  width: 150px;
+}
+
+.redireccionIconoWsp2 {
+  height: 150px;
+  width: 150px;
+}
+
+.redireccionIconoMail2 {
+  height: 150px;
+  width: 150px;
+}
+
+.divEmpresa {
   display: flex;
   flex-flow: row nowrap;
   background-color: orange;
@@ -166,6 +183,7 @@ divEmpresa {
 }
 
 .textoEmpresa {
+  margin: 1rem;
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
   text-align: justify;
@@ -219,6 +237,7 @@ divEmpresa {
 
 /* SERVICIO*/
 .textoEmpresa1 {
+  margin: 1rem;
   font-size: 40px;
   padding-left: 2rem;
 }
@@ -233,6 +252,7 @@ divEmpresa {
 }
 
 .textoEmpresa2 {
+  margin: 1rem;
   font-size: 40px;
   padding-left: 2rem;
 }
@@ -394,18 +414,18 @@ h1 span {
   }
   .redireccionIconoTel {
     grid-area: tel;
-    height: 50%;
-    width: 100%;
+    height: 40%;
+    width: 80%;
   }
   .redireccionIconoWsp {
     grid-area: wsp;
-    height: 50%;
-    width: 100%;
+    height: 40%;
+    width: 80%;
   }
   .redireccionIconoMail {
     grid-area: mail;
-    height: 50%;
-    width: 100%;
+    height: 40%;
+    width: 80%;
   }
   .mapaFooter {
     grid-area: mapa;
@@ -457,5 +477,17 @@ h1 span {
   }
   .mapaContacto {
     width: 100%;
+  }
+  .redireccionIconoTel2 {
+    width: 30%;
+    height: 30%;
+  }
+  .redireccionIconoWsp2 {
+    width: 30%;
+    height: 30%;
+  }
+  .redireccionIconoMail2 {
+    width: 30%;
+    height: 30%;
   }
 }

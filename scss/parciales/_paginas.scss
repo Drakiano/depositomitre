@@ -1,4 +1,4 @@
-divEmpresa{
+.divEmpresa{
     display: flex;
     flex-flow: row nowrap;
     background-color: $colorPrincipal;
@@ -6,6 +6,7 @@ divEmpresa{
     border: 5px solid white;
 }
 .textoEmpresa {
+    margin: 1rem;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     text-align:justify;
@@ -52,6 +53,7 @@ divEmpresa{
 }
 /* SERVICIO*/
 .textoEmpresa1{
+    margin: 1rem;
     font-size: 40px;
     padding-left: 2rem;
 }
@@ -63,6 +65,7 @@ divEmpresa{
     width: 40%;
 }
 .textoEmpresa2{
+    margin: 1rem;
     font-size: 40px;
     padding-left: 2rem;
 }
