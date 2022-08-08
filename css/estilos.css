@@ -175,6 +175,7 @@
 }
 
 .divEmpresa {
+  margin-top: 80px;
   display: flex;
   flex-flow: row nowrap;
   background-color: orange;
