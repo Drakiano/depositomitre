@@ -1,4 +1,16 @@
+@mixin WyH($width, $height){
+	width:$width;
+	height: $height;
+}
 .divEmpresa{
+    margin-top: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: $colorPrincipal;
+    padding: 2rem;
+    border: 5px solid white;
+}
+.divEmpresa666{
     margin-top: 80px;
     display: flex;
     flex-flow: row nowrap;
@@ -13,9 +25,8 @@
     text-align:justify;
 }
 .fotoSucursal1{
+    @include WyH(50%,400px );
     justify-content: right;
-    width: 50%;
-    height: 400px;
     padding-left: 2rem;
     padding-right: 2rem;
     border-radius: 20px;  
@@ -29,10 +40,9 @@
 }
 /* PRODUCTO */
 .boton2{
+    @include WyH(30%,auto );
     border: 5px solid white;
     color: rgb(121, 80, 4);
-    width: 30%;
-    height: auto ;
     padding: 16px;
     margin: 32px;
     border-radius: 10px;
@@ -103,8 +113,7 @@ h1 span {
     align-items: center;
 }
 .mapaContacto{
-    width: 50%;
-    height: auto;
+    @include WyH(50%,auto );
 }
 .footerContacto{
     display: block;

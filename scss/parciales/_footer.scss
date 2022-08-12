@@ -43,15 +43,15 @@ font-family: 'Roboto', sans-serif;
     width:600px;
     height:500px;
 }
-.redireccionIconoTel2{
+.redireccionIcono{
     height: 150px;
     width: 150px;
 }
-.redireccionIconoWsp2{
-    height: 150px;
-    width: 150px;
+.redireccionIcono--Wsp{
+    @extend .redireccionIcono;
+    display: inline;
 }
-.redireccionIconoMail2{
-    height: 150px;
-    width: 150px;
+.redireccionIcono--Mail{
+    @extend .redireccionIcono;
+    display: inline;
 }
