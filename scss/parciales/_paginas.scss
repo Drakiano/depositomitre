@@ -20,12 +20,18 @@
 }
 .textoEmpresa {
     margin: 1rem;
-    font-size: 30px;
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
+    text-align:justify;
+}
+.textoEmpresa3 {
+    margin: 1rem;
+    font-size: 200%;
     font-family: 'Roboto', sans-serif;
     text-align:justify;
 }
 .fotoSucursal1{
-    @include WyH(50%,400px );
+    @include WyH(50%,350px );
     justify-content: right;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -69,23 +75,17 @@
     padding-left: 2rem;
 }
 .fotoSucursal11{
-    width: 30%;
-    transition: width 5s;
-}
-.fotoSucursal11:hover{
-    width: 40%;
+    width: 35%;
 }
 .textoEmpresa2{
     margin: 1rem;
-    font-size: 40px;
+    font-size: 30px;
     padding-left: 2rem;
 }
 .fotoSucursal22{
     width: 50%;
-    transition: 5s;
-}
-.fotoSucursal22:hover{
-    width: 60%;
+    height: 350px;
+
 }
 /*CONTACTO*/
 .tituloContacto { 
